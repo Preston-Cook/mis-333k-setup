@@ -1,7 +1,7 @@
 # mis-333k-setup
 A simple shell script to help with setup for .NET projects
 
-NOTE: This is for Mac or Linux machines
+NOTE: This is for Mac and Linux machines
 
 #### Setup Steps
 
