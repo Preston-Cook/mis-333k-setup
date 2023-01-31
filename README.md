@@ -20,7 +20,7 @@ NOTE: This is for Mac and Linux machines
 - Type ```ls``` command to list all items in your current folder and ensure the vs_setup.sh file is in the same folder as your Program.cs file
 
 
-- Run this command
+- Run this command: 
 ```bash vs_setup.sh```
 
 
