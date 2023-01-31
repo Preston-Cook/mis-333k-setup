@@ -25,4 +25,4 @@ Run this command
 ```bash vs_setup.sh```
 
 *Step 7*
-- Enjoy your automatically-generated setup :)
+Enjoy your automatically-generated setup :)
