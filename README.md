@@ -3,7 +3,7 @@ A simple shell script to help with setup for .NET projects
 
 NOTE: This is for Mac or Linux machines
 
-### Setup Steps
+#### Setup Steps
 
 *Step 1*
 - Download/Clone the repo onto your machine
