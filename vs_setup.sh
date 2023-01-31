@@ -8,8 +8,8 @@ echo "Retrieved Basename from Absolute Path"
 mkdir Models Controllers Views Views/Home Views/Shared wwwroot wwwroot/images wwwroot/js wwwroot/css
 echo "Created Directories"
 
-# Touch necessary files
-touch wwwroot/css/styles.css wwwroot/js/scripts.js Views/Home/index.cshtml
+# Touch empty files
+touch wwwroot/css/styles.css wwwroot/js/scripts.js
 echo "Created Empty Files"
 
 # Add text to Program.cs
@@ -134,6 +134,13 @@ cat > Views/Shared/_Layout.cshtml <<- EOM
 EOM
 
 echo "Wrote to Views/Shared/_Layout.cshtml"
+
+# Add text to Views/Home/index.cshtml
+cat > Views/Home/index.cshtml <<-EOM
+<h1>Hello, world!</h1>
+EOM
+
+echo "Wrote to Views/Home/index.cshtml"
 
 # Success Message
 echo "Successfully Ran with 0 Errors :)"
