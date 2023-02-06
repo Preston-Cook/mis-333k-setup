@@ -135,12 +135,12 @@ EOM
 
 echo "Wrote to Views/Shared/_Layout.cshtml"
 
-# Add text to Views/Home/index.cshtml
-cat > Views/Home/index.cshtml <<-EOM
+# Add text to Views/Home/Index.cshtml
+cat > Views/Home/Index.cshtml <<-EOM
 <h1>Hello, world!</h1>
 EOM
 
-echo "Wrote to Views/Home/index.cshtml"
+echo "Wrote to Views/Home/Index.cshtml"
 
 # Success Message
 echo "Successfully Ran with 0 Errors :)"
